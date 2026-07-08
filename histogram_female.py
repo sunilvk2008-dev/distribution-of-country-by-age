@@ -98,7 +98,7 @@ ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 
 plt.tight_layout()
-out_path = os.path.join(script_dir, "histogram_pandas.png")
+out_path = os.path.join(script_dir, "histogram_female.png")
 plt.savefig(out_path, bbox_inches="tight", facecolor="white")
 print(f"\nChart saved to: {out_path}")
 plt.show()
